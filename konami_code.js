@@ -8,7 +8,7 @@ function onKeyDownHandler(event) {
         return
       }
     
-    if (event.which === code[tracker]) {
+    if (key === code[tracker]) {
       console.log('Success!');
       tracker++
       if (tracker === code.length) {
@@ -26,6 +26,7 @@ function onKeyDownHandler(event) {
 
 function init() {
   // tracker keeps track of where we are in the array
+  let tracker = 0;
   // Write your JavaScript code inside the init() function
   const body = document.querySelector('body');
   body.addEventListener('keydown', (onKeyDownHandler) => 
