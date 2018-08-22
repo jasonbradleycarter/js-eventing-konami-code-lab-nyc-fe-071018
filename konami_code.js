@@ -14,7 +14,7 @@ function init() {
       console.log('Success!');
       tracker++
     } else {
-      console.log('youve messed up :(');
+      console.log('youve messed up!!!!!');
       tracker = 0;
     }
   });
