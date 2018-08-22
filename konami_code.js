@@ -25,7 +25,7 @@ function init() {
       console.log('youve messed up!!!!!');
       tracker = 0;
     }
-  });
+  };
 }
 
 init();
