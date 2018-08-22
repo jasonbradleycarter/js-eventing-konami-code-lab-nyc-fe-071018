@@ -14,7 +14,7 @@ function init() {
       if (tracker === code.length) {
         event.preventDefault()
       }
-    }
+    })
     if (event.which === code[tracker]) {
       console.log('Success!');
       tracker++
