@@ -19,7 +19,7 @@ function onKeyDownHandler(event) {
       tracker = 0;
     }
 }
-
+}
 // we have an array of key codes (event.which)
 // add an event listener somewhere so that when we press this, something happens
 // we need to keep track of where we are in the combo
