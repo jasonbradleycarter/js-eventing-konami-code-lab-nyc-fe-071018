@@ -26,6 +26,6 @@ function init() {
       tracker = 0;
     }
   };
-}
+
 
 init();
